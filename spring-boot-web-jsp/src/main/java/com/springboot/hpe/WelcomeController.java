@@ -11,6 +11,7 @@ public class WelcomeController {
 
 	// inject via application.properties
 		@Value("${welcome.message:test}")
+		//comment added
 		private String message = "Hello World";
 
 		@RequestMapping("/")
